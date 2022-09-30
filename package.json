@@ -1,0 +1,31 @@
+{
+  "name": "github-simple-search",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "start": "node heroku-server.js"
+  },
+  "dependencies": {
+    "axios": "~0.27.2",
+    "core-js": "~3.8.3",
+    "express": "~4.18.1",
+    "vue": "~2.6.14",
+    "vue-router": "~3.6.5",
+    "vuetify": "~2.6.10",
+    "vuex": "~2.5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "~7.12.16",
+    "@mdi/font": "~7.0.96",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "vue-template-compiler": "~2.6.14"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
